@@ -17,6 +17,10 @@ namespace RevitApp
          Selection sel = uidoc.Selection;
          StringBuilder data = new StringBuilder();
          Reference selectedObjRef = sel.PickObject(ObjectType.Element, "Select one element");
+         const string htmlMarginLeft = "\"margin-left: 30%\"";
+         const string htmlPosition = "position=\"relative\"";
+         const string htmlWidth = "width= \"5px\"";
+         const string htmlAlign = "align:\"left\"";
 
          Element selectedElement;
          if (selectedObjRef != null) {
@@ -36,17 +40,18 @@ namespace RevitApp
                data = new StringBuilder();
 
                foreach (Parameter p in selectedElemParams) {
-                  data.Append($"Parameter name: <span style=\"margin-left: 15%\" position=\"absolute\">{p.Definition.Name}</span></br>\n" +
-                      $"Parameter Type: <span style=\"margin-left: 15%\" position=\"absolute\">{p.Definition.ParameterType}</span></br>\n" +
-                      $"Parameter Group: <span style=\"margin-left: 15%\" position=\"absolute\">{p.Definition.ParameterGroup}</span></br>\n" +
-                      $"Value: <span>{p.AsValueString()}</span></br>\n" +
-                      $"Is Formula: <span>{p.IsReadOnly}</span></br>\n");
+                  data.Append(
+                      $"<span style={htmlWidth} {htmlAlign}>Parameter name: </span> <span style={htmlMarginLeft} {htmlPosition}>{p.Definition.Name}</span></br>\n" +
+                      $"<span style={htmlWidth} {htmlAlign}>Parameter Type: </span> <span style={htmlMarginLeft} {htmlPosition}>{p.Definition.ParameterType}</span></br>\n" +
+                      $"<span style={htmlWidth} {htmlAlign}>Parameter Group: </span> <span style={htmlMarginLeft} {htmlPosition}>{p.Definition.ParameterGroup}</span></br>\n" +
+                      $"<span style={htmlWidth} {htmlAlign}>Value: </span> <span style={htmlMarginLeft} {htmlPosition}>{p.AsValueString()}</span></br>\n" +
+                      $"<span style={htmlWidth} {htmlAlign}>Is Formula: </span> <span style={htmlMarginLeft} {htmlPosition}>{p.IsReadOnly}</span></br>\n");
 
                   if ((doc.GetElement(p.Element.Id).GetType() != typeof(FamilyInstance))) {
-                     data.Append($"Parameter ?(instance/type): <span style=\"margin-left: 15%\">Type</span></br></br>\n\n");
+                     data.Append($"<span style={htmlWidth} {htmlAlign}>Parameter ?(instance/type): </span><span style={htmlMarginLeft} {htmlPosition}>Type</span></br></br>\n\n");
                   } else {
                      if ((doc.GetElement(p.Element.Id).GetType() != typeof(FamilySymbol))) {
-                        data.Append($"Parameter ?(instance/type): <span style=\"margin-left: 15%\">Instance</span></br></br>\n\n");
+                        data.Append($"<span style={htmlWidth} {htmlAlign}>Parameter ?(instance/type): </span><span style={htmlMarginLeft} {htmlPosition}>Instance</span></br></br>\n\n");
                      }
                   }
                }
