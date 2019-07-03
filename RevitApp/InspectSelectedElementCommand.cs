@@ -15,50 +15,42 @@ namespace RevitApp
          UIDocument uidoc = commandData.Application.ActiveUIDocument;
          Document doc = uidoc.Document;
          Selection sel = uidoc.Selection;
-         Element selectedElement = null;
-         StringBuilder data;
-         //BindingMap bindings = doc.ParameterBindings;
-         //DefinitionBindingMapIterator it = bindings.ForwardIterator();
-         //
-         //Dictionary<StorageType, List<ParameterType>> dictStorageTypeList =
-         //        new Dictionary<StorageType, List<ParameterType>>();
-
+         StringBuilder data = new StringBuilder();
          Reference selectedObjRef = sel.PickObject(ObjectType.Element, "Select one element");
-         sel.Dispose();
 
+         Element selectedElement;
          if (selectedObjRef != null) {
             selectedElement = doc.GetElement(selectedObjRef.ElementId);
+         } else {
+            throw new Exception("Please select one Element");
          }
 
          ParameterSet selectedElemParams = selectedElement.Parameters;
 
-         data = $"Element ID: {selectedElement.Id} \nElement Category Name: {selectedElement.Category.Name}\n\n";
-
-         //while (it.MoveNext()) {
-         //   Definition d = it.Key as Definition;
-         //   Binding b = it.Current as Binding;
-         //
-         //   string sbinding = (b is InstanceBinding) ? "instance" : "type";
-         //   data += $"{d.Name} {sbinding}\n\n";
-         //}
-         //TaskDialog.Show("Data", data);
-         //return Result.Succeeded;
+         data.Append($"Element ID: {selectedElement.Id} \nElement Category Name: {selectedElement.Category.Name}\n\n");
 
          try {
-            foreach (var p in selectedElemParams) {
-               data += $"Parameter name: {(p as Parameter).Definition.Name}\n" +
-                   $"Parameter Type: {(p as Parameter).Definition.ParameterType}\n" +
-                   $"Parameter Group: {(p as Parameter).Definition.ParameterGroup}\n" +
-                   $"Value: {(p as Parameter).AsDouble()}\n\n";
+            foreach (Parameter p in selectedElemParams) {
+               data.Append($"Parameter name: {p.Definition.Name}\n" +
+                   $"Parameter Type: {p.Definition.ParameterType}\n" +
+                   $"Parameter Group: {p.Definition.ParameterGroup}\n" +
+                   $"Value: {p.AsValueString()}\n" +
+                   $"Is Formula: {p.IsReadOnly}\n");
 
-               //data += (typeof(ElementType) != (p as Parameter).Element.GetType()) ? "Parameter ?(instance/type): Instance\n\n" : "Parameter Type: Type\n\n";
-               //data += $"Parameter formula: {(p as FamilyParameter).Formula}\n\n";
-
+               if ((doc.GetElement(p.Element.Id).GetType() != typeof(FamilyInstance))) {
+                  data.Append($"Parameter ?(instance/type): Type\n\n");
+               } else {
+                  if ((doc.GetElement(p.Element.Id).GetType() != typeof(FamilySymbol))) {
+                     data.Append($"Parameter ?(instance/type): Instance\n\n");
+                  }
+               }
             }
-         
-            TaskDialog.Show("Data", data);
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"\Users\TDima\Desktop\RevitApp\RevitApp\RevitApp\Resources\out.txt", true)) {
+               file.WriteLine(data.ToString());
+               file.Flush();
+            }
             return Result.Succeeded;
-         
+
          } catch (Exception e) {
             TaskDialog.Show("Exception caught", e.Message);
             return Result.Failed;

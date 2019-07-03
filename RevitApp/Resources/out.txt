@@ -1,0 +1,655 @@
+﻿Element ID: 746575 
+Element Category Name: Electrical Equipment
+
+Parameter name: |{0,-7}Category
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: Electrical Equipment
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Comments
+Parameter Type: Text
+Parameter Group: PG_IDENTITY_DATA
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Schedule Level
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: Level 3
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Apparent Load Phase A
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 51474 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Distribution System
+Parameter Type: Invalid
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 480/277 Wye
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Enclosure
+Parameter Type: Text
+Parameter Group: PG_GENERAL
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Category
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: Electrical Equipment
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Offset
+Parameter Type: Length
+Parameter Group: PG_CONSTRAINTS
+Value: 0
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Mark
+Parameter Type: Text
+Parameter Group: PG_IDENTITY_DATA
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 24300 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Height
+Parameter Type: Length
+Parameter Group: PG_GEOMETRY
+Value: 1727
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Mounting
+Parameter Type: Text
+Parameter Group: PG_GENERAL
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Location
+Parameter Type: Text
+Parameter Group: PG_GENERAL
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 10 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Circuit Naming
+Parameter Type: Invalid
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: Prefixed
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Host
+Parameter Type: Text
+Parameter Group: PG_CONSTRAINTS
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 29 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Electrical Data
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Short Circuit Rating
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 12 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Current Phase A
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 187 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 124004 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 125.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Apparent Load Phase B
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 51222 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Phase Demolished
+Parameter Type: Invalid
+Parameter Group: PG_PHASING
+Value: None
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Current Phase B
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 186 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Family and Type
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: M_Lighting and Appliance Panelboard - 480V MCB - Surface: 400 A
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 124004 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Feed
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 12 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 100.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Type
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: 400 A
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 149 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Circuit Prefix Separator
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 29 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Total Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 151985 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Supply From
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 124004 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Host Id
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: -1
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 17150 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 125.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Total Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 97.25%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 9990 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Number of Phases
+Parameter Type: Integer
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 3
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Modifications
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Apparent Load Phase C
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 49293 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 24300 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 7992 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Max #1 Pole Breakers
+Parameter Type: Integer
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 42
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Elevation
+Parameter Type: Length
+Parameter Group: PG_CONSTRAINTS
+Value: 1850
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Panel Name
+Parameter Type: Text
+Parameter Group: PG_GENERAL
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Family
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: M_Lighting and Appliance Panelboard - 480V MCB - Surface
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 124004 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 10 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 149 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Circuit Prefix
+Parameter Type: Text
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Current Phase C
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 178 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 9990 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Total Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 183 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 21 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 21 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Schedule Header Notes
+Parameter Type: MultilineText
+Parameter Group: PG_ELECTRICAL
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 100.00%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Type Name
+Parameter Type: Text
+Parameter Group: PG_IDENTITY_DATA
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Type Id
+Parameter Type: Invalid
+Parameter Group: INVALID
+Value: 619617
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Image
+Parameter Type: Image
+Parameter Group: PG_IDENTITY_DATA
+Value: <None>
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Total Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 178 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Mains
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 100 A
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 70.58%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Demand Factor
+Parameter Type: ElectricalDemandFactor
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 70.58%
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Other Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 0 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Area
+Parameter Type: Area
+Parameter Group: PG_GEOMETRY
+Value: 1 m²
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Schedule Footer Notes
+Parameter Type: MultilineText
+Parameter Group: PG_ELECTRICAL
+Value: 
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Phase Created
+Parameter Type: Invalid
+Parameter Group: PG_PHASING
+Value: New Construction
+Is Formula: False
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Design Option
+Parameter Type: Invalid
+Parameter Group: PG_IDENTITY_DATA
+Value: -1
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Receptacles Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 17150 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Level
+Parameter Type: Invalid
+Parameter Group: PG_CONSTRAINTS
+Value: Level 3
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Total Estimated Demand
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 147805 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Lighting Connected
+Parameter Type: ElectricalApparentPower
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 7992 VA
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Number of Wires
+Parameter Type: Integer
+Parameter Group: PG_ELECTRICAL_CIRCUITING
+Value: 4
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Estimated Demand Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 149 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Volume
+Parameter Type: Volume
+Parameter Group: PG_GEOMETRY
+Value: 0.13 m³
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}Family Name
+Parameter Type: Text
+Parameter Group: INVALID
+Value: 
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+Parameter name: |{0,-7}HVAC Connected Current
+Parameter Type: ElectricalCurrent
+Parameter Group: PG_ELECTRICAL_LOADS
+Value: 149 A
+Is Formula: True
+Parameter ?(instance/type): Instance
+
+
